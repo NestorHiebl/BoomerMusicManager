@@ -9,7 +9,8 @@ from tkinter import filedialog
 
 fulllist=[]
 
-def namesafe(argument): #Function works. First try!
+#String sanitization function that approximates illegal characters
+def namesafe(argument):
     illegal = r'<.>\|?*:"/'
     legallist = []
     legal = ''
